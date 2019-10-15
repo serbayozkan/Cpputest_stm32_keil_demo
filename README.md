@@ -1,4 +1,4 @@
-# Cpputest_stm32_keil_example
+# Cpputest_stm32_keil_demo
 Demo Application of Cpputest (C/C++ Unit Test Framework) on STM32 uC and Keil IDE.
 
 ## Getting Started
@@ -9,7 +9,7 @@ https://github.com/cpputest/cpputest
 This workspace is generated using STM32CubeMX on STM32F746ZGTx microcontroller. User can easily adapt the Unit Test Framework to the embedded project by taking this demo workspace as a reference.
 
 ### Notes
-User ddo not have to to configure the workspace settings for this demo application but in order to use this framework on the new generated custom workspace, user should pay attention to expressions mention in below.
+User do not have to to configure the workspace settings for this demo application but in order to use this framework on the new generated custom workspace, user should pay attention to expressions mention in below.
 
  - All source and header file of unit test framework is collected at Middlewares\Third_Party\CPPUTEST
  - ARM Compiler version should be changed to the current version that supports C/C++ compiler. In demo workspace, ARM Compiler V6.12 is used.
