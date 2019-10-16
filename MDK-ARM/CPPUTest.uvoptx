@@ -515,7 +515,7 @@
   </Group>
 
   <Group>
-    <GroupName>CPPUTEST</GroupName>
+    <GroupName>CPPUTEST Lib.</GroupName>
     <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>

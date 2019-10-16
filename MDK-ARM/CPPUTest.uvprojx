@@ -516,7 +516,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>CPPUTEST</GroupName>
+          <GroupName>CPPUTEST Lib.</GroupName>
           <Files>
             <File>
               <FileName>CommandLineArguments.cpp</FileName>

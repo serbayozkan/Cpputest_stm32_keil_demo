@@ -100,6 +100,7 @@ int main(int ac, char** av)
 		const char * av_override[] = { "exe", "-v" };
 		
     CommandLineTestRunner::RunAllTests(2, av_override);
+		
   /* USER CODE END 2 */
 
   /* Infinite loop */
