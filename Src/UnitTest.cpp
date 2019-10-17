@@ -4,7 +4,7 @@
 * @author  Serbay Ozkan
 * @version V1.0.0
 * @date    14-October-2019
-* @brief   Modbus Master Writer App. Layer Source File
+* @brief   Unit Test Example App. Source File
 ******************************************************************************
 */
 
@@ -37,18 +37,18 @@ TEST_GROUP(myFirstUnitTest)
 
 TEST(myFirstUnitTest, API1)
 {
-    FAIL("I am Failed!");
+		FAIL("I am Failed!");
 }
 
 TEST(myFirstUnitTest, API2)
 {
-    STRCMP_EQUAL("Hello", "Hello");
+		STRCMP_EQUAL("Hello", "Hello");
 }
 
 TEST(myFirstUnitTest, API3)
 {
-    addClass adder;
+		addClass adder;
 		adder.add(100, 200);
-		
+
 		CHECK_EQUAL (310, adder.getTotal());
 }
